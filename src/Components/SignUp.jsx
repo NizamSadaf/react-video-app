@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <form action="" method="post">
         <Box w={'full'} h={'100vh'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-      <Box bg={'purple.500'} h={'80vh'} w={'30%'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={'5'} p={'10'} borderRadius={'lg'}>
+      <Box bg={'purple.500'} h={['80vh','80vh']} w={['full','30%']} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={'5'} p={'10'} borderRadius={'lg'}>
           <Heading textTransform={'uppercase'} color={'white'}>Login</Heading>
           <Input placeholder='Username...' w={'full'} color={'black'} focusBorderColor={'none'} bg={['white']} required/>
           <Input type={'email'} placeholder='Email...' w={'full'} color={'black'} focusBorderColor={'none'} bg={'white'} required/>

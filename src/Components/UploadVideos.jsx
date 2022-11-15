@@ -5,7 +5,7 @@ const UploadVideos = () => {
   return (
     <>
         <Box w={'full'} h={'100vh'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-            <Box w={'30%'} h={'50vh'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'}>
+            <Box w={['full','30%']} h={'50vh'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'}>
                 <Box>
                     <Input type={'file'} border={'none'} />
                 </Box>
